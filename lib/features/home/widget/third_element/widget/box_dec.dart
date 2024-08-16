@@ -10,7 +10,7 @@ class BoxDec extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: const BorderRadius.all(
-          Radius.circular(5),
+          Radius.circular(10),
         ),
         color: ColorApp().blueGreen,
       ),

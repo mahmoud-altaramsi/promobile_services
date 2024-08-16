@@ -18,7 +18,7 @@ class ButtonTow extends StatelessWidget {
         child: Text(
           "ارقام التحويل",
           style: TextStyle(
-              color: ColorApp().papayawhip,
+              color: ColorApp().white,
               fontFamily: "baloo",
               fontSize: 20,
               fontWeight: FontWeight.w600),

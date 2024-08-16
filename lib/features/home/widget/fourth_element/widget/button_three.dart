@@ -18,7 +18,7 @@ class ButtonThree extends StatelessWidget {
         child: Text(
           "العب واربح",
           style: TextStyle(
-              color: ColorApp().white,
+              color: ColorApp().papayawhip,
               fontFamily: "baloo",
               fontSize: 20,
               fontWeight: FontWeight.w600),
