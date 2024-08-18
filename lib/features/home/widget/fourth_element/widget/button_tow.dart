@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:promobile_services/core/style/color.dart';
+import 'package:promobile_services/features/transfer_number/screen/trannsfer_numbers.dart';
 
 class ButtonTow extends StatelessWidget {
   const ButtonTow({super.key});
@@ -14,13 +15,17 @@ class ButtonTow extends StatelessWidget {
         ),
       ),
       child: TextButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (context) => const TransferNumbers(),
+          ));
+        },
         child: Text(
           "ارقام التحويل",
           style: TextStyle(
               color: ColorApp().white,
               fontFamily: "baloo",
-              fontSize: 20,
+              fontSize: 17,
               fontWeight: FontWeight.w600),
         ),
       ),

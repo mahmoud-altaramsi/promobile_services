@@ -20,7 +20,7 @@ class ButtonOne extends StatelessWidget {
           style: TextStyle(
               color: ColorApp().fireenginered,
               fontFamily: "baloo",
-              fontSize: 20,
+              fontSize: 17,
               fontWeight: FontWeight.w600),
         ),
       ),

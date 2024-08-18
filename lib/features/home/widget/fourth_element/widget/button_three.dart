@@ -20,7 +20,7 @@ class ButtonThree extends StatelessWidget {
           style: TextStyle(
               color: ColorApp().papayawhip,
               fontFamily: "baloo",
-              fontSize: 20,
+              fontSize: 17,
               fontWeight: FontWeight.w600),
         ),
       ),

@@ -12,12 +12,12 @@ class FourthElement extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      height: 105,
+      height: 85,
       decoration: BoxDecoration(
         color: ColorApp().papayawhip,
       ),
       child: const Padding(
-        padding: EdgeInsets.symmetric(horizontal: 26),
+        padding: EdgeInsets.symmetric(horizontal: 24),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [

@@ -11,7 +11,7 @@ class ScreenConstructionTransferNumbers extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 26),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
           children: [
             const SizedBox(
@@ -25,7 +25,7 @@ class ScreenConstructionTransferNumbers extends StatelessWidget {
               height: 30,
             ),
             SizedBox(
-              height: 700,
+              height: 550,
               child: ListView.separated(
                   physics: const BouncingScrollPhysics(),
                   separatorBuilder: (context, index) {

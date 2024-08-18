@@ -1,5 +1,9 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:promobile_services/core/style/color.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class SecondElementOnTransferNumber extends StatelessWidget {
   const SecondElementOnTransferNumber(
@@ -21,7 +25,7 @@ class SecondElementOnTransferNumber extends StatelessWidget {
         children: [
           //for item count
           Container(
-            width: 30,
+            width: 20,
             height: double.infinity,
             decoration: BoxDecoration(
               color: ColorApp().fireenginered,
@@ -34,7 +38,7 @@ class SecondElementOnTransferNumber extends StatelessWidget {
               itemNumber,
               style: TextStyle(
                 color: ColorApp().white,
-                fontSize: 40,
+                fontSize: 35,
                 fontFamily: "baloo",
                 fontWeight: FontWeight.w500,
               ),
@@ -45,7 +49,7 @@ class SecondElementOnTransferNumber extends StatelessWidget {
           Text(
             transferNumber,
             style: TextStyle(
-              letterSpacing: 3.5,
+              letterSpacing: 3.2,
               // wordSpacing: 5.0,
               color: ColorApp().white,
               fontSize: 35,
@@ -55,7 +59,7 @@ class SecondElementOnTransferNumber extends StatelessWidget {
           ),
           //for copy the number
           Container(
-            width: 60,
+            width: 40,
             height: double.infinity,
             decoration: BoxDecoration(
               color: ColorApp().selectiveyellow,
@@ -63,17 +67,17 @@ class SecondElementOnTransferNumber extends StatelessWidget {
                 Radius.circular(5),
               ),
             ),
-            child: TextButton(
-              onPressed: () {},
-              child: Text(
-                "نسخ",
-                style: TextStyle(
-                  color: ColorApp().barnred,
-                  fontSize: 20,
-                  fontFamily: "baloo",
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
+            child: IconButton(
+              onPressed: () async {
+                // final Uri url = Uri(scheme: 'tel', path: '01552020604');
+                // if (await canLaunchUrl(url)) {
+                //   await launchUrl(url);
+                // } else {
+                //   print("object");
+                // }
+              },
+              icon: Icon(Icons.phone_callback_sharp,
+                  color: ColorApp().prussianblue),
             ),
           ),
         ],

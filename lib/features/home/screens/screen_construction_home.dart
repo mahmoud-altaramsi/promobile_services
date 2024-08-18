@@ -4,8 +4,8 @@ import 'package:promobile_services/features/home/widget/fourth_element/fourth_el
 import 'package:promobile_services/features/home/widget/second_element.dart';
 import 'package:promobile_services/features/home/widget/third_element/third_element.dart';
 
-class ScreenConstruction extends StatelessWidget {
-  const ScreenConstruction({super.key});
+class ScreenConstructionHome extends StatelessWidget {
+  const ScreenConstructionHome({super.key});
   @override
   Widget build(BuildContext context) {
     return const SafeArea(
