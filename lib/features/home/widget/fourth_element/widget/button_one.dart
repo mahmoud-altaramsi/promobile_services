@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:promobile_services/core/style/color.dart';
 
+import '../../../../market/screen/market.dart';
+
 class ButtonOne extends StatelessWidget {
   const ButtonOne({super.key});
 
@@ -14,7 +16,11 @@ class ButtonOne extends StatelessWidget {
         ),
       ),
       child: TextButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (context) => const LoadingScreen(),
+          ));
+        },
         child: Text(
           "ابو عرفة",
           style: TextStyle(

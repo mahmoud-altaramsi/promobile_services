@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:promobile_services/core/style/color.dart';
+import 'package:promobile_services/features/entertainment/screen/entertainment.dart';
 
 class ButtonThree extends StatelessWidget {
   const ButtonThree({super.key});
@@ -14,7 +15,11 @@ class ButtonThree extends StatelessWidget {
         ),
       ),
       child: TextButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (context) => const ColorGridGame(),
+          ));
+        },
         child: Text(
           "العب واربح",
           style: TextStyle(

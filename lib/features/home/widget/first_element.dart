@@ -12,9 +12,9 @@ class FirstElement extends StatelessWidget {
         color: ColorApp().selectiveyellow,
         borderRadius: const BorderRadius.only(
             topLeft: Radius.circular(5),
-            bottomLeft: Radius.circular(120),
+            bottomLeft: Radius.circular(110),
             bottomRight: Radius.circular(5),
-            topRight: Radius.circular(120)),
+            topRight: Radius.circular(110)),
       ),
       width: 380,
       height: 130,
@@ -22,10 +22,10 @@ class FirstElement extends StatelessWidget {
         child: SizedBox(
           width: 263.1,
           child: Text(
-            "كاش ابو عرفة لخدمات المحمول",
+            " ابو عرفة لخدمات المحمول",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 36,
+              fontSize: 30,
               fontFamily: "Baloo",
               fontWeight: FontWeight.bold,
             ),

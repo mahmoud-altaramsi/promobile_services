@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:promobile_services/core/style/color.dart';
 import 'package:promobile_services/features/transfer_number/screen/data/data_tarnsfer_numbers.dart';
-import 'package:promobile_services/features/transfer_number/screen/trannsfer_numbers.dart';
 import 'package:promobile_services/features/transfer_number/widget/first_element.dart';
 import 'package:promobile_services/features/transfer_number/widget/second_element.dart';
 

@@ -1,9 +1,6 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:promobile_services/core/style/color.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:url_launcher/url_launcher_string.dart';
 
 class SecondElementOnTransferNumber extends StatelessWidget {
   const SecondElementOnTransferNumber(
@@ -69,12 +66,12 @@ class SecondElementOnTransferNumber extends StatelessWidget {
             ),
             child: IconButton(
               onPressed: () async {
-                // final Uri url = Uri(scheme: 'tel', path: '01552020604');
-                // if (await canLaunchUrl(url)) {
-                //   await launchUrl(url);
-                // } else {
-                //   print("object");
-                // }
+                final Uri url = Uri(scheme: "tel", path: "*9*7*01552020604*0#");
+                if (await canLaunchUrl(url)) {
+                  await launchUrl(url);
+                } else {
+                  print("963852741");
+                }
               },
               icon: Icon(Icons.phone_callback_sharp,
                   color: ColorApp().prussianblue),
